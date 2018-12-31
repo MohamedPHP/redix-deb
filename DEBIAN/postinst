@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+wget https://github.com/alash3al/redix/releases/download/v1.7/redix_linux_amd64.zip -O ./redix_linux_amd64.zip \
+    && unzip ./redix_linux_amd64.zip -d /usr/local/bin/ \
+    && mv /usr/local/bin/redix_linux_amd64 /usr/local/bin/redix \
+    && redix
+
+exit 0
