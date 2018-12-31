@@ -19,6 +19,18 @@ sudo apt update && apt install debhelper
 
 ### Installing
 
+make sure that you are above the downloaded REPO
+
+```
+cd ..
+```
+
+list the files in your path if you found "redix-deb" go on ...
+
+```
+ls
+```
+
 Compiling to .deb file
 
 ```
